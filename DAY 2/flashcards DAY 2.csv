@@ -1,0 +1,75 @@
+When should the 'reply-all' function be used in an email chain?,"It should only be used when there is a specific reason, such as sharing critical information that everyone on the original email needs to know."
+"What is the standard, predictable format for most professional emails?","Greeting, opening section, one or two body sections, closing section, and a sign-off."
+"According to Grammarly, what are three common email etiquette mistakes?","Hitting reply-all incorrectly, using a vague subject line, and writing a lengthy email instead of a concise one."
+What is an email signature?,"It is text, like contact information or a favorite quote, that is automatically added at the end of Gmail messages as a footer."
+"In the HubSpot guide, what is the core spirit of email etiquette?",To communicate clearly and respectfully.
+Why is embracing email etiquette important for one's career?,"It helps establish professionalism, improve communication, and build strong relationships, which can smooth a career path."
+What is the proper use of the 'To' field in an email?,This field is for the email address of the primary person you are trying to contact.
+What does 'Bcc' stand for and how does it differ from 'Cc'?,"Bcc stands for blind carbon copy; it copies a contact to the email, but no one besides that contact will see they received it."
+"In the context of the PARA method, what is a 'Project'?",A task you are currently working on that has a concrete outcome and a specific timeframe.
+"In the PARA method, a responsibility that doesn't have an end date, such as managing a website, is known as an _____.",Area
+"According to the PARA method, what category would your interests and curiosities, like copywriting or remote living, fall under?",Resources
+What is the purpose of the 'Archives' category in the PARA method?,"It is for all items from Projects, Areas, and Resources that are no longer relevant or active."
+What is the key organizing principle of the PARA Method?,"Organizing by actionability, keeping the most needed information front and center."
+What is a spreadsheet?,A large sheet having data and information arranged in rows and columns.
+"In spreadsheet terminology, what is a 'workbook'?",A multi-page document (like an Excel file) that contains one or more worksheets.
+"The grid of cells where you type data, divided into rows and columns, is called a _____.",worksheet
+"In a spreadsheet, what is a 'cell'?","The intersection of a row and a column, and it is the basic building block of a worksheet."
+How are columns and rows typically identified in a spreadsheet program like Excel?,"Columns are identified with letters (A, B, C...) and rows are identified with numbers (1, 2, 3...)."
+What is the 'active cell' in a worksheet?,The selected cell that receives the data or command you give it.
+What is the default file format extension for a workbook in Excel 2010 and later?,.xlsx
+What is the difference between the 'Save' and 'Save As' commands in Excel?,"'Save As' is used to name a file for the first time or save it with a new name, while 'Save' updates a file that has already been named."
+What does grouping worksheets in Excel allow you to do?,"It allows you to apply identical formulas, formatting, or data entry across all selected worksheets simultaneously."
+"In Excel, what are formulas?",Equations that perform calculations on data values in the worksheet.
+What is a cell reference in an Excel formula?,"It is the cell address used in a formula, which allows you to use data from different parts of a worksheet."
+"In Excel, when you copy a formula with a _____ reference, the reference cell automatically changes based on its new position.",relative
+What is an absolute reference in Excel and how is it created?,"It is a cell reference that does not change when copied; it is created by adding a dollar symbol ($) before the column letter and row number (e.g., $A$1)."
+"A cell reference that is a combination of relative and absolute, where either the row or the column is fixed (e.g., $A1 or A$1), is called a _____ reference.",mixed
+What are functions in Excel?,"Predefined formulas that perform calculations using specific values, called arguments, in a particular order."
+What does the SUM function in Excel do?,It adds all the numbers in a range of cells.
+The Excel function _____ returns the sum of cells that meet a single specified condition or criteria.,SUMIF
+What is the purpose of the PRODUCT function in Excel?,It returns the product (multiplication) of a supplied set of numerical values.
+Which Excel function calculates the arithmetic mean of a set of numbers?,AVERAGE
+The _____ function in Excel returns the smallest value from a supplied set of numeric values.,MIN
+Which Excel function is used to find the largest value from a supplied set of numeric values?,MAX
+What does the COUNT function in Excel return?,It returns the count of numeric values (including numbers and dates) in a supplied set of cells.
+What is the purpose of the VLOOKUP function in Excel?,It is used to search for a value in the first column of a table array and returns a value in the same row from a column you specify.
+The _____ function is similar to VLOOKUP but searches for a value in the top row of a table instead of the first column.,HLOOKUP
+"In Excel's financial functions, what does the PMT function calculate?",It calculates the periodic payment for a loan or investment based on a constant interest rate and fixed number of periods.
+Which Excel function calculates the present value of an investment?,PV
+What is the purpose of the FV function in Excel?,It calculates the future value of an investment based on a constant interest rate and regular periodic payments.
+The Excel function _____ is used to calculate the number of periods required to pay off a loan or investment.,NPER
+What does the DSUM function in Excel do?,It calculates the sum of values in a field of a database that satisfies specified conditions (criteria).
+What is the difference between sorting and filtering data in a spreadsheet?,"Sorting rearranges the data list, while filtering temporarily hides rows you do not want to see without rearranging the list."
+What does the 'freeze panes' feature in Excel allow you to do?,It lets you lock specific rows or columns so they are always visible when you scroll through the rest of the worksheet.
+What is a web browser?,An application software that allows users to access and display documents and other web resources from the World Wide Web.
+What role does a Domain Name System (DNS) server play when a user enters a URL in a browser?,The DNS server translates the human-readable domain name (like www.geeksforgeeks.org) into a machine-readable IP address.
+What is web security primarily focused on?,Protecting sensitive information and systems from unauthorized access.
+What is the difference between web security and web privacy?,"Security is about protecting data from unauthorized access, while privacy is about giving users control over how their data is collected, stored, and used."
+The _____ is a fundamental security mechanism that restricts how a script from one origin can interact with a resource from another origin.,same-origin policy
+An HTTPS page that includes content fetched using cleartext HTTP is called a _____ page.,mixed content
+What is phishing?,The act of sending a message (like an email) with a link to a fraudulent site designed to trick a user into entering login credentials or sensitive information.
+Why is it a security risk to include sensitive data in URL query strings?,"The URL can be intercepted, indexed by web crawlers, or stored in browser history, exposing the sensitive data."
+Which HTTP request method should be used instead of GET to avoid sending sensitive data in the URL?,POST
+What is a Content Security Policy (CSP)?,"A web platform feature that enforces a set of rules on a website to control which resources (like scripts and images) are allowed to load, making it harder to introduce vulnerabilities."
+"The _____ feature enables browsers to verify that fetched resources, like those from a CDN, are delivered without unexpected manipulation by checking a cryptographic hash.",Subresource Integrity (SRI)
+What is the purpose of sanitizing form input on a website?,To prevent malicious users from entering executable code (like SQL or JavaScript) that could harm the site or its database.
+"In a _____ attack, a user is fooled into clicking a UI element that performs an action different from what they expect.",clickjacking
+Which HTTP response header can be used to prevent a page from being embedded in a frame or iframe to protect against clickjacking attacks?,X-Frame-Options
+What is the primary function of Google Slides?,It is a powerful tool for creating and preparing convincing and attractive presentations.
+How can you add a new slide in Google Slides using the toolbar?,Click on the '+' sign on the Google Slides toolbar.
+"In Google Slides, what is the purpose of the 'Duplicate slide' option?","It creates a new slide that is an identical copy of an existing slide, including all its content."
+What function is housed in the 'Insert' tab on the Google Slides menu bar?,"It is where you add content like text, shapes, videos, and images to your slides."
+"The alignment tools in Google Slides, used to position objects in an ordered way, are found under the _____ tab.",Arrange
+Where can you find the Spell Check tool and add words to a Personal Dictionary in Google Slides?,Under the 'Spelling' menu in the 'Tools' tab.
+What is the 'Explore' tool in Google Slides used for?,"It helps locate information from the web, search for images, and search through Google Drive and Gmail directly within Slides."
+Independent apps that can be added to Google Slides to increase its capabilities are known as _____.,Extensions (or add-ons)
+What does the 'Distribute Vertically' alignment option do in Google Slides?,It spaces all selected objects evenly between the top-most and bottom-most object.
+Why is there no 'Save' button in Google Slides when working online?,Changes are saved automatically to the cloud as you work.
+"In Google Docs, what feature allows you to transcribe your voice into text?",Voice Typing
+What does the 'Smart Compose' feature in Google Docs do?,It provides predictive writing suggestions as you type to help you write faster.
+How can you add citations in Google Docs?,"By using the built-in 'Adding Citations' feature, found under the Tools menu."
+What is Microsoft OneNote?,A digital notebook application that helps streamline workflow and enhance team collaboration by allowing users to jot down notes and add multimedia content.
+What are the main organizational elements of OneNote?,"Notebooks, which are divided into Sections, which in turn contain Pages."
+"The _____ is a browser extension that quickly captures any webpage, or a section of it, and saves it to OneNote.",OneNote Clipper
+What is the purpose of 'Page Templates' in OneNote?,"They help structure content quickly and efficiently, providing a uniform appearance for notes like project outlines or meeting agendas."
